@@ -163,7 +163,7 @@ Comments Section
 
 Voting System
 
-(Add screenshot here)
+<img width="1366" height="411" alt="image" src="https://github.com/user-attachments/assets/f2f252eb-48d4-46ad-8bbc-3e269cc933cd" />
 
 Learning Outcomes
 
