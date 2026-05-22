@@ -4,97 +4,68 @@ A modern full-stack Reddit-inspired social discussion platform built with **Fast
 
 Readit allows users to create communities, publish posts, vote, comment, and interact through a responsive real-time social platform with JWT authentication.
 
+> This is a student full-stack project built for learning and internship portfolio purposes.
 
 ---
 
-## Quick Start
+# Quick Start
 
-### Backend
+## Backend
 
 ```bash
 python -m uvicorn app.main:app --reload
-
-
-### Frontend
-
-```bash
-
+Frontend
 cd frontend
 npm run dev
-
-Recruiters LOVE quick-start sections.
-
----
-
-```md id="2yafw8"
-> This is a student full-stack project built for learning and internship portfolio 
-
-# Features
-
-## Authentication
-- User Signup
-- User Login
-- JWT Authentication
-- Persistent Sessions
-- Protected Routes
-
-## Communities
-- Create communities
-- Browse community feeds
-- Community-specific discussions
-
-## Posts
-- Create posts
-- Dynamic post feed
-- Sort by Hot / New / Top / Rising
-- Real-time refresh
-- Expand/collapse long content
-
-## Comments
-- Add comments
-- View discussions
-- Real-time updates
-- Optimistic UI rendering
-
-## Voting System
-- Upvote posts
-- Downvote posts
-- Live score updates
-- Optimistic vote handling
-
-## UI / UX
-- Modern Reddit-style interface
-- Dark mode design
-- Responsive layout
-- Smooth animations
-- Search functionality
-- Trending sidebar
-- Community navigation
-
----
-
-# Tech Stack
-
-## Frontend
-- React
-- Vite
-- Axios
-- Tailwind CSS
-
-## Backend
-- FastAPI
-- SQLAlchemy
-- Pydantic
-- JWT Authentication
-
-## Database
-- PostgreSQL
-
----
-
-# Project Structure
-
-```bash
+Features
+Authentication
+User Signup
+User Login
+JWT Authentication
+Persistent Sessions
+Protected Routes
+Communities
+Create communities
+Browse community feeds
+Community-specific discussions
+Posts
+Create posts
+Dynamic post feed
+Sort by Hot / New / Top / Rising
+Real-time refresh
+Expand/collapse long content
+Comments
+Add comments
+View discussions
+Real-time updates
+Optimistic UI rendering
+Voting System
+Upvote posts
+Downvote posts
+Live score updates
+Optimistic vote handling
+UI / UX
+Modern Reddit-style interface
+Dark mode design
+Responsive layout
+Smooth animations
+Search functionality
+Trending sidebar
+Community navigation
+Tech Stack
+Frontend
+React
+Vite
+Axios
+Tailwind CSS
+Backend
+FastAPI
+SQLAlchemy
+Pydantic
+JWT Authentication
+Database
+PostgreSQL
+Project Structure
 readit-fullstack/
 │
 ├── app/
@@ -176,18 +147,11 @@ POST	/votes/	Vote on post
 GET	/votes/post/{post_id}	Get vote score
 Screenshots
 Home Feed
-
 <img width="1366" height="644" alt="image" src="https://github.com/user-attachments/assets/f22fa86a-551b-4240-ba33-1c5e935085b5" />
-
-
 Comments Section
-
 <img width="1325" height="646" alt="image" src="https://github.com/user-attachments/assets/3372355f-398c-4fda-90cc-f9038ce7c638" />
-
 Voting System
-
 <img width="1366" height="411" alt="image" src="https://github.com/user-attachments/assets/f2f252eb-48d4-46ad-8bbc-3e269cc933cd" />
-
 Learning Outcomes
 
 This project helped me strengthen my understanding of:
