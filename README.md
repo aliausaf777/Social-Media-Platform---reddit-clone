@@ -14,7 +14,8 @@ Readit allows users to create communities, publish posts, vote, comment, and int
 ```bash
 python -m uvicorn app.main:app --reload
 
-Frontend
+### Frontend
+
 cd frontend
 npm run dev
 
