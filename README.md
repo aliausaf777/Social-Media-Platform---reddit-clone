@@ -14,7 +14,10 @@ Readit allows users to create communities, publish posts, vote, comment, and int
 ```bash
 python -m uvicorn app.main:app --reload
 
+
 ### Frontend
+
+```bash
 
 cd frontend
 npm run dev
@@ -22,9 +25,6 @@ npm run dev
 Recruiters LOVE quick-start sections.
 
 ---
-
-# ALSO ADD THIS
-
 
 ```md id="2yafw8"
 > This is a student full-stack project built for learning and internship portfolio 
