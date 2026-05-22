@@ -4,7 +4,30 @@ A modern full-stack Reddit-inspired social discussion platform built with **Fast
 
 Readit allows users to create communities, publish posts, vote, comment, and interact through a responsive real-time social platform with JWT authentication.
 
+
 ---
+
+## Quick Start
+
+### Backend
+
+```bash
+python -m uvicorn app.main:app --reload
+
+Frontend
+cd frontend
+npm run dev
+
+Recruiters LOVE quick-start sections.
+
+---
+
+# ALSO ADD THIS
+
+Near the top:
+
+```md id="2yafw8"
+> This is a student full-stack project built for learning and internship portfolio 
 
 # Features
 
